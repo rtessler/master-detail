@@ -1,0 +1,1 @@
+ServerA Node, express server which create a mongoDb database2 collections:centreassetYou need mongo installed and mongod runninginstall:npm installrun:npm start

@@ -1,0 +1,1 @@
+A react front endinstall:npm installrun:npm startthis will start a dev serverwebpack config based on:https://www.valentinog.com/blog/webpack-tutorial/

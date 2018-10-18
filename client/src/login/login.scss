@@ -1,0 +1,38 @@
+.login {
+
+    background: white;
+    padding: 20px;  
+    border-radius: 10px;
+
+    .field {
+
+       display: flex;
+       justify-content: space-between;
+
+       margin-top: 10px;
+       margin-bottom: 10px;
+
+       input { margin-left: 10px; }
+    }
+
+    .errorMessage { color: #f00; }
+
+  // dialog box cross
+
+  .cross {
+        position: absolute;
+        right: 5px;
+        top: -5px;
+        height: 24px;
+        width: 24px;
+        font-size: 2em;
+    }
+
+    div.cross:after{
+        display: inline-block;
+        content: "\00d7"; /* This will render the 'X' */    
+        top: -6px;
+        position: relative;
+        font-weight: bold;
+    }    
+}

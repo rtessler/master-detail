@@ -1,0 +1,40 @@
+.asset-manager {
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1000px;
+        margin-bottom: 10px;    
+    }
+
+    .loading { color: #f00; 
+
+        //  -webkit-animation: flickerAnimation 2s infinite;
+        //  -moz-animation: flickerAnimation 2s infinite;
+        //  -o-animation: flickerAnimation 2s infinite;
+        //   animation: flickerAnimation 2s infinite;
+    }
+
+    //   @keyframes flickerAnimation {
+    //     0%   { opacity:1; }
+    //     50%  { opacity:0; }
+    //     100% { opacity:1; }
+    //   }
+    //   @-o-keyframes flickerAnimation{
+    //     0%   { opacity:1; }
+    //     50%  { opacity:0.5; }
+    //     100% { opacity:1; }
+    //   }
+    //   @-moz-keyframes flickerAnimation{
+    //     0%   { opacity:1; }
+    //     50%  { opacity:0; }
+    //     100% { opacity:1; }
+    //   }
+    //   @-webkit-keyframes flickerAnimation{
+    //     0%   { opacity:1; }
+    //     50%  { opacity:0; }
+    //     100% { opacity:1; }
+    //   }
+
+}
